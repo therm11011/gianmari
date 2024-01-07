@@ -21,6 +21,7 @@ ul{
     display: inline-block;
     /* background-size: cover;
     background-repeat: no-repeat; */
+    
 }
 
 .header .navbar{
@@ -29,6 +30,8 @@ ul{
     display: flex;
     align-items: center;
     padding-top: 20px;
+    border-bottom: solid;
+    border-color: #7e1c43;
 }
 
 .header .navbar .logo a{
@@ -101,7 +104,7 @@ ul{
     top: 30%;
     left: 0;
     color: #fff;
-
+    
 }
 .header .banner .app-text{
     padding-left: 250px;
@@ -130,6 +133,14 @@ ul{
     margin-top: 5px;
     font-weight: 500;
     line-height: 1.3;
+}
+
+.header .image{
+    height: 90%;
+    margin-left: 52%;
+    background-image: url(images/414004891_385461144156540_6530225448664049863_n.jpg);
+    object-fit: cover;
+    
 }
 
 .header .more-contact{
@@ -161,14 +172,14 @@ ul{
 }
 .header .my-body{
     position: absolute;
-    top: 15%;
+    top: 13%;
     left: 5%;
     right: 45%;
     color: #fff;
 }
 .header .my-body .my-intro h1{
-    font-size: 48px;
-    margin-bottom: 2%;
+    font-size: 45px;
+    margin-bottom: 1%;
 }
 .header .my-body .my-intro p{
     font-size: 18px;
