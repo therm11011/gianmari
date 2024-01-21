@@ -38,14 +38,19 @@ ul{
     color: #fff;
     font-size: 28px;
     margin-left: 50px;
+    position: fixed;
+    margin-top: -25px;
+    
 }
 
 .header .navbar .menu ul{
-    margin-left: 200px;   
+    margin-left: 200px;
+    width: max-content;
+    
 }
 
 .header .navbar .menu ul li{
-    display: inline-block;
+    display: inline-flex;
     margin-right: 25px;
     align-items: center;
 }
@@ -140,7 +145,7 @@ ul{
     margin-left: 52%;
     background-image: url(images/414004891_385461144156540_6530225448664049863_n.jpg);
     object-fit: cover;
-    
+    background-repeat: no-repeat;
 }
 
 .header .more-contact{
@@ -148,11 +153,12 @@ ul{
     margin-top: 15%;
     text-align: center;
 }
-.header .social-icons{
-    position: absolute;
-    right: 40%;
+.header .more-contact .social-icons{
+    position: fixed;
+    right: 45%;
     bottom: 35%;
     align-items: center;
+    
 }
 
 .header .social-icons ul li{ 
