@@ -76,15 +76,18 @@ ul{
 }
 
 .header .contact-info{
-    margin-left: 800px;
+    display: fixed;
+    margin-left: 950px;
 }
 
 .header .contact-info ul{
     margin-left: 41px;
+    width: max-content;
 }
 
 .header .contact-info ul li{
-    display: inline-block;
+    display: inline-flex;
+    align-items:center;
 }
 
 .header .contact-info ul a{
@@ -141,8 +144,10 @@ ul{
 }
 
 .header .image{
-    height: 90%;
-    margin-left: 52%;
+    height: 91%;
+    max-height: max-content;
+    display: fixed;
+    margin-left: 55%;
     background-image: url(images/414004891_385461144156540_6530225448664049863_n.jpg);
     object-fit: cover;
     background-repeat: no-repeat;
